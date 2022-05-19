@@ -1,0 +1,116 @@
+body{
+	background-color: #faebd7;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: -1px;
+	}
+
+.roshan img{
+	display: block;
+	width: 100%;
+	height:100vh;
+	object-fit: fill;
+	}
+
+.one{
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	top: 0px;
+	background-color: #0000ff;
+	width: 100%;
+	text-align: center;
+}
+
+.one a{
+	color: white;
+	padding: 15px 45px;
+	margin: 5px;
+	display: inline-flex;
+	text-align: center;
+	text-decoration: none;
+	font-family: sans-serif;
+	transition: all .2s ease-in-out;
+
+
+}
+
+.active, a:hover{
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	transform: scale(1.5);
+
+}
+
+
+.roshan{
+	position: relative;
+	border-bottom: 3px solid black;
+
+	}
+
+.roshan1{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: 5px;
+	}
+
+.roshan1 h1{
+	color: #fff;
+	font-family: "Georgia";
+	transform: translateX(65px);
+	text-align: left;
+	letter-spacing: 3px;
+	font-size: 65px;
+	text-shadow: 0 0 5px black, 0 0 40px #00ffff;
+	}
+
+
+.aryal{
+
+	padding: 10px;
+	border: 2px solid black;
+
+}
+.side, .middle{
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+.aryal p{
+	text-align: center;
+}
+.side h1{
+	text-align: center;
+	font-family: "Cooper";
+	font-size: 30px;
+}
+
+
+
+.three .four{
+	margin:5px;
+	padding: 5px;
+	width: 550px;
+	float: left;
+}
+.three .four img{
+	border-radius: 5px;
+	border: 5px solid black;
+	
+}
+.three .four img:hover{
+	border-radius: 5px;
+	border: 5px solid red;
+	
+}
+
+
+
+
+
+footer p{
+	text-align: center;
+}
